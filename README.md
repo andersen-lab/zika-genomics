@@ -30,10 +30,10 @@ Zika Florida
 ###Folder Structure
 
 ```
-.
-├── alignments
-├── consensus_sequences
-│   └── downloaded_2016.09.11
-└── trees
-    └── beast_xml
+.   
+├── alignments  
+├── consensus_sequences  
+│   └── downloaded_2016.09.11  
+└── trees  
+    └── beast_xml  
 ```
