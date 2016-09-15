@@ -12,8 +12,7 @@
     <style>
     
       .github-embed-container {
-      min-height: 500px;
-      height: 100%;
+      height: 600px;
     }
     
     #code-object {
@@ -35,7 +34,8 @@
       <h3>
 <a id="zika-florida" class="anchor" href="#zika-florida" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Zika Florida</h3>
 
-<div id="code-object" class="github-embed-container"></div>
+      <div id="code-object" class="github-embed-container"></div>
+      <div id="render-readme"></div>
 
       <footer class="site-footer">
         <span class="site-footer-owner"><a href="https://github.com/andersen-lab/zika-florida">Zika-florida</a> is maintained by <a href="https://github.com/andersen-lab">andersen-lab</a>.</span>
@@ -45,9 +45,9 @@
 
     </section>
 
-  <script src="libs/github-embed.min.js"></script>
-<script>
-
+    <script src="http://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
+    <script src="libs/github-embed.min.js"></script>
+    <script>      
     githubEmbed('#code-object', {
     	"owner": "andersen-lab",
         "repo": "zika-florida",
@@ -57,7 +57,21 @@
     "path": "README.txt"
     }]
     });
-  
-</script>
+    </script>
+    <script>
+      $("#render-readme").html("Loading ...");
+      $.ajax({
+        url: 'README.md',
+        type: 'GET',
+        success: function(resp){
+          console.log(resp);
+          var html_content = markdown.toHTML(resp );
+          $("#render-readme").html(html_content);
+        },
+        error: function(resp){
+          $("#render-readme").html("File couldn't be shown at this time. Please try again later.")
+        }
+      });
+      </script>
   </body>
 </html>
