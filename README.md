@@ -5,7 +5,7 @@
 [insert sample names/stats/metadata table here]
 
 #### Sequencing
-* Library construction was performed using an amplicon-based approach (see protocol in the sidebar).
+* Library construction was performed using an amplicon-based approach [amplicon-based approach](https://docs.google.com/document/d/1PilT4w5jHO-ROsE8TL5WBGa0wSCdTHAsNl1LIOYiTgk).
 * Sequencing was performed on the MiSeq.
 
 #### Coding-complete genomes
