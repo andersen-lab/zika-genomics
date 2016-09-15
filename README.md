@@ -1,11 +1,11 @@
 #### Data files
-[GitHub Repo](/)
+[GitHub Repo](https://github.com/andersen-lab/zika-florida/tree/master/)
 
-[Consensus Sequences](tree/master/consensus_sequences)
+[Consensus Sequences](https://github.com/andersen-lab/zika-florida/tree/master/consensus_sequences)
 
-[Alignments](tree/master/alignments)
+[Alignments](https://github.com/andersen-lab/zika-florida/tree/master/alignments)
 
-[Trees](tree/master/trees)
+[Trees](https://github.com/andersen-lab/zika-florida/tree/master/trees)
 
 #### Sequencing
 * Library construction was performed using an amplicon-based approach (see protocol in the sidebar).
