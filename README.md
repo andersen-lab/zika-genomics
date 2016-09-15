@@ -12,7 +12,7 @@
 * Downloaded from NCBI, ViPR, and NextStrain. Only new genomes are added to later folders.
 * Consensus sequences sequenced in our lab are added to the root of the 'consensus_sequences' folder.
 
-#### Alignments:
+#### Alignments
 * Created using MAFFT.
 * Trimmed to just contain the ORFs.
 
