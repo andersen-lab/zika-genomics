@@ -20,7 +20,7 @@ github@andersen-lab.com
 * We root trees on KX447517 from French Polynesia.
 
 ### Time-aware trees 
-* Made with BEAST using the following parameters:
+Made with BEAST using the following parameters:
 * Uncorrelated relaxed clock with lognormal distribution, CTMC rate prior.
 * HKYg substitution model with (1+2),3 codon partitioning.
 * SkyGrid, 50 parameters, time at last point = 2.
