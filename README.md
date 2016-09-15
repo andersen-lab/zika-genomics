@@ -1,10 +1,4 @@
-Andersen Laboratory  
-The Scripps Research Institute  
-Scripps Translational Science Institute  
-http://andersen-lab.com/  
-github@andersen-lab.com  
-
-## Zika Florida
+https://github.com/andersen-lab/zika-florida/tree/master/consensus_sequences
 
 ### Coding-complete genomes
 * Downloaded from NCBI, ViPR, and NextStrain. Only new genomes are added to later folders.
