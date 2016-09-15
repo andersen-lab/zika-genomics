@@ -11,11 +11,12 @@
     <link rel="stylesheet" type="text/css" href="stylesheets/github-embed.css" media="screen">
     <style>
     
-    .github-embed-container {
-      height: 600px;
+      .github-embed-container {
+      min-height: 500px;
+      height: 100%;
     }
     
-    #settings-object {
+    #code-object {
       margin-bottom: 2rem;
     }
     
@@ -34,30 +35,8 @@
       <h3>
 <a id="zika-florida" class="anchor" href="#zika-florida" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Zika Florida</h3>
 
-<p>Analysis</p>
-
-<pre><code>|--------+-------------------+---------------|
-| Sample |          Coverage |         Depth |
-|--------+-------------------+---------------|
-| Test   | 57.08913125235051 | 1660.85408048 |
-| Test   | 74.94358781496804 | 3184.72912749 |
-| Test   | 89.64836404663407 | 27180.9173561 |
-| Test   | 88.16284317412561 | 28458.7620346 |
-| Test   |  91.5757803685596 | 30795.4355961 |
-| Test   |  86.4704776231666 |  21326.125141 |
-| Test   |  88.6987589319293 | 30874.4148176 |
-| Test   |  86.1790146671681 | 29461.5839601 |
-| Test   | 94.22715306506205 |  27032.291463 |
-| Test   | 89.46972546069951 | 28757.5010342 |
-| Test   |  83.1327566754419 | 20835.5057352 |
-| Test   | 82.54042873260624 | 20882.1413125 |
-| Test   | 88.27566754418955 | 38246.9635201 |
-|--------+-------------------+---------------|
-
-</code></pre>
-
 <h3>Embedded File</h3>
-<div id="settings-object" class="github-embed-container"></div>
+<div id="code-object" class="github-embed-container"></div>
 
       <footer class="site-footer">
         <span class="site-footer-owner"><a href="https://github.com/andersen-lab/zika-florida">Zika-florida</a> is maintained by <a href="https://github.com/andersen-lab">andersen-lab</a>.</span>
@@ -70,14 +49,12 @@
   <script src="libs/github-embed.min.js"></script>
 <script>
 
-    githubEmbed('#settings-object', {
-    	"owner": "gkarthik",
-        "repo": "chatheadsclone",
+    githubEmbed('#code-object', {
+    	"owner": "andersen-lab",
+        "repo": "zika-florida",
         "ref": "master",
     "embed": [{
-    "label": "CustomLocationListener",
-    "path": "app/src/main/java/com/example/skywalker/Listener/CustomLocationListener.java"
-    }, {
+    "label": "README"
     "path": "README.md"
     }]
     });
