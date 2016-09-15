@@ -24,7 +24,7 @@
 #### Time-aware trees 
 Made with BEAST using the following parameters:
 * Uncorrelated relaxed clock with lognormal distribution, CTMC rate prior.
-* HKY&#915; substitution model with (1+2),3 codon partitioning.
+* HKY<sub>&#915;</sub> substitution model with (1+2),3 codon partitioning.
 * SkyGrid, 50 parameters, time at last point = 2.
 * 50,000,000 states.
 
