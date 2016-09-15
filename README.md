@@ -22,10 +22,10 @@
 * We root trees on KX447517 from French Polynesia.
 
 #### Time-aware trees 
-Made with BEAST using the following parameters:
-* Uncorrelated relaxed clock with lognormal distribution, CTMC rate prior.
-* HKY<sub>&#915;</sub> substitution model with (1+2),3 codon partitioning.
-* SkyGrid, 50 parameters, time at last point = 2.
-* 50,000,000 states.
+* Made with BEAST using the following parameters:
+ * Uncorrelated relaxed clock with lognormal distribution, CTMC rate prior.
+ * HKY<sub>&#915;</sub> substitution model with (1+2),3 codon partitioning.
+ * SkyGrid, 50 parameters, time at last point = 2.
+ * 50,000,000 states.
 
 **Disclaimer**. Please note that this data is still based on work in progress and should be considered preliminary. If you intend to include any of these data in publications, please let us know – otherwise please feel free to download and use without restrictions. We have shared this data with the hope that people will download and use it, as well as scrutinize it so we can improve our methods and analyses. Please contact us if you have any questions or comments – we’ll buy beers for #ResearchParasites that spot flaws and faults in the data and come up with improvements!
