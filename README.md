@@ -4,8 +4,7 @@ Scripps Translational Science Institute
 http://andersen-lab.com/  
 github@andersen-lab.com  
 
-Zika Florida
---
+## Zika Florida
 
 ### Coding-complete genomes
 * Downloaded from NCBI, ViPR, and NextStrain. Only new genomes are added to later folders.
@@ -30,10 +29,10 @@ Zika Florida
 ###Folder Structure
 
 ```
-.
-├── alignments
-├── consensus_sequences
-│   └── downloaded_2016.09.11
-└── trees
-    └── beast_xml
+.  
+├── alignments  
+├── consensus_sequences  
+│   └── downloaded_2016.09.11  
+└── trees  
+    └── beast_xml  
 ```
