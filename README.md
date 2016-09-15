@@ -26,9 +26,11 @@ github@andersen-lab.com
 
 Folder Structure
 
+```
 .
 ├── alignments
 ├── consensus_sequences
 ├── README.md
 ├── test.txt
 └── trees
+```
