@@ -1,8 +1,9 @@
 #### Data
 [Sequences](https://github.com/andersen-lab/zika-florida/tree/master/consensus_sequences) | [Alignments](https://github.com/andersen-lab/zika-florida/tree/master/alignments) | [Trees](https://github.com/andersen-lab/zika-florida/tree/master/trees)
+[Raw data file repo on Google Cloud - BAMs, QC, etc.]
 
 #### Samples
-[insert sample names/stats/metadata table here]
+[insert sample names/stats/metadata table here: ID, collection_date, country, city, Ct, sequencing_date, % coverage, quality (subjective * > ***)]
 
 #### Sequencing
 * Library construction was performed using an amplicon-based approach [amplicon-based approach](https://docs.google.com/document/d/1PilT4w5jHO-ROsE8TL5WBGa0wSCdTHAsNl1LIOYiTgk).
