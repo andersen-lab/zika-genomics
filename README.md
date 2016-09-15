@@ -1,7 +1,10 @@
 #### Data files
 [GitHub Repo](/)
+
 [Consensus Sequences](tree/master/consensus_sequences)
+
 [Alignments](tree/master/alignments)
+
 [Trees](tree/master/trees)
 
 #### Sequencing
