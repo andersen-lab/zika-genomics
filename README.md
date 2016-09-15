@@ -1,12 +1,11 @@
-#### Data files
-[GitHub Repo](https://github.com/andersen-lab/zika-florida/tree/master/)
-
+### Data
 [Consensus Sequences](https://github.com/andersen-lab/zika-florida/tree/master/consensus_sequences)
 
 [Alignments](https://github.com/andersen-lab/zika-florida/tree/master/alignments)
 
 [Trees](https://github.com/andersen-lab/zika-florida/tree/master/trees)
 
+### Methods
 #### Sequencing
 * Library construction was performed using an amplicon-based approach (see protocol in the sidebar).
 * Sequencing was performed on the MiSeq.
@@ -31,5 +30,5 @@ Made with BEAST using the following parameters:
 * SkyGrid, 50 parameters, time at last point = 2.
 * 50,000,000 states.
 
-#### Disclaimer 
+### Disclaimer 
 Please note that this data is still based on work in progress and should be considered preliminary. If you intend to include any of these data in publications, please let us know – otherwise please feel free to download and use without restrictions. We have shared this data with the hope that people will download and use it, as well as scrutinize it so we can improve our methods and analyses. Please contact us if you have any questions or comments – we’ll buy beers for #ResearchParasites that spot flaws and faults in the data and come up with improvements!
