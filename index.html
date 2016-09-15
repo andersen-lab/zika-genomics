@@ -45,27 +45,22 @@
 </code></pre>
 
 <h3>Embedded File</h3>
-<div id="test-embed-1"></div>
+<div id="settings-remote"></div>
 <script src="libs/github-embed.min.js"></script>
 <script>
-  var settings = {
-  "owner": "gkarthik",
-  "repo": "ChatHeadsclone",
-  "ref": "master",
-  "embed": [
-  {
-  "type": "java",
-  "label": "Embedded Java",
-  "path": "https://github.com/gkarthik/ChatHeadsClone/blob/master/app/src/main/java/com/example/skywalker/ChatHeadsClone/ChatHeadsClone.java"
-  },
-  {
-  "type": "markdown",
-  "label": "Embedded  Readme",
-  "path": "https://github.com/gkarthik/ChatHeadsClone/blob/master/README.md"
-  }
-  ]
-  };
-  githubEmbed('#test-embed-1', settings);
+
+    githubEmbed('#settings-object', {
+    	"owner": "finom",
+        "repo": "github-embed",
+        "ref": "gh-pages",
+    	"embed": [{
+    		"path": "demo.html"
+    	}, {
+    		"path": "README.md"
+    	}]
+    });
+    githubEmbed('#settings-remote', 'https://github.com/finom/github-embed/blob/master/.gh-embed.json');
+  
 </script>
 
       <footer class="site-footer">
