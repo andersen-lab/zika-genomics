@@ -16,7 +16,23 @@
     
     #code-object {
       margin-bottom: 2rem;
-    }
+      }
+
+      .file-list{
+      list-style:none;
+      border-radius: 5px;
+      border: 1px solid #ececec;
+      margin: 0px;
+      padding:0px;
+      }
+
+      .file-link:nth-child(odd) {
+      background: #ececec;
+      }
+
+      .file-link{
+      padding: 5px;
+      }
     
     </style>
   </head>
@@ -30,7 +46,10 @@
     </section>
 
     <section class="main-content">
-      <div id="render-readme"></div>
+      <div id="render-readme">Loading ... </div>
+      <h3>Files</h3>
+      <hr>
+      <div id="files-container">Loading file list ...</div>
 
       <footer class="site-footer">
         <span class="site-footer-owner"><a href="https://github.com/andersen-lab/zika-florida">Zika-florida</a> is maintained by <a href="https://github.com/andersen-lab">andersen-lab</a>.</span>
@@ -43,7 +62,6 @@
     <script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
     <script src="libs/markdown.min.js"></script>
     <script>
-      $("#render-readme").html("Loading ...");
       $.ajax({
         url: 'README.md',
         type: 'GET',
@@ -53,9 +71,26 @@
           $("#render-readme").html(html_content);
         },
         error: function(resp){
-          $("#render-readme").html("File couldn't be shown at this time. Please try again later.")
+          $("#render-readme").html("README content couldn't be shown at this time. Please try again later.")
         }
       });
-      </script>
+    </script>
+    <script>
+      var html = "<ul class='file-list'>";
+	$.getJSON("https://api.github.com/repos/andersen-lab/zika-florida/contents?callback=?", function(data){
+	data = data.data;
+        for(var t in data){
+      if(data[t].name==".gitignore" || data[t].name == "README.md"){
+        continue;
+      }
+      html += "<li class='file-link'><a href='"+data[t].html_url+"'>"+data[t].name+"</a></li>"
+        }
+	html+="</ul>";
+            $("#files-container").html(html);
+      }, function(err){
+      $("#files-container").html("File list couldn't be loaded at this time. Please try again later.");
+      
+      });
+    </script>
   </body>
 </html>
