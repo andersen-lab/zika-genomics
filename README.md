@@ -21,7 +21,7 @@
 * Orange = travel-associated cases; Red = local transmissions.
 * We root trees on KX447517 from French Polynesia.
 
-#### Time-aware trees 
+#### Time-scaled trees 
 * Made with BEAST using the following parameters:
  * Uncorrelated relaxed clock with lognormal distribution, CTMC rate prior.
  * HKY<sub>&#915;</sub> substitution model with (1+2),3 codon partitioning.
