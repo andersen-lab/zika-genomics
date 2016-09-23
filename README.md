@@ -2,7 +2,30 @@
 [Sequences](https://github.com/andersen-lab/zika-florida/tree/master/consensus_sequences) | [Alignments](https://github.com/andersen-lab/zika-florida/tree/master/alignments) | [Trees](https://github.com/andersen-lab/zika-florida/tree/master/trees) | [BAMs](https://www.dropbox.com/sh/87bnqj83mwgw8br/AADWjkfL5bZ22XvemlMOUhBOa?dl=0)
 
 #### Samples
-[insert sample names/stats/metadata table here: ID, collection_date, country, city, Ct, sequencing_date, % coverage, quality (subjective * > ***)]
+| Scripps ID | Patient ID | Sample type | Quality score | Coverage |     Depth |
+| :---       |       :--- | :---        | :---          |     :--- |      :--- |
+| ZF1        |        001 | Saliva      | ***           |    97.16 |  59286.05 |
+| ZF8        |        008 | Urine       | ***           |    85.96 |  18712.87 |
+| ZF10       |        010 | Urine       | ****          |    97.66 |  30635.73 |
+| ZF16       |        016 | Urine       | ***           |    100.0 |  76803.85 |
+| ZF21       |        021 | Urine       | ***           |    97.64 |  56788.40 |
+| ZF22       |        022 | Urine       | *             |    96.98 |  53493.29 |
+| ZF30       |        030 | Urine       | ***           |    99.74 |  62811.74 |
+| ZF32       |        032 | Urine       | ***           |    98.35 |  55852.93 |
+| ZF36       |        036 | Serum       | *             |    92.66 |  46827.35 |
+| ZF39       |        039 | Urine       | ****          |    99.76 |  77655.23 |
+| ZL2        |     Hu0015 | Saliva      | ***           |    98.41 |  96506.56 |
+| ZM1        |       7501 | Mosquito    | ****          |    98.95 | 156292.44 |
+| ZM2        |       7719 | Mosquito    | ****          |    98.47 | 151795.35 |
+| ZM3        |       7727 | Mosquito    | ****          |    99.97 | 154790.10 |
+
+### Quality
+```
+**** Complete coding sequence, no apparent contamination in aligned bam file
+***	Complete coding sequence, some contamination in aligned bam file (confident in consensus)
+**	Partial coding sequence, no apparent contamination in aligned bam file
+*	Partial coding sequence, some contamination in aligned bam file
+```
 
 #### Sequencing
 * Library construction was performed using an amplicon-based approach [amplicon-based approach](https://docs.google.com/document/d/1PilT4w5jHO-ROsE8TL5WBGa0wSCdTHAsNl1LIOYiTgk).
