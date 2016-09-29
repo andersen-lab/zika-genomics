@@ -4,20 +4,20 @@
 #### Samples
 | Scripps ID | Patient ID | Sample type | Quality score | Coverage |     Depth |
 | :---       |       :--- | :---        | :---          |     :--- |      :--- |
-| ZF1        |        001 | Saliva      | ***           |    97.16 |  59286.05 |
-| ZF8        |        008 | Urine       | ***           |    85.96 |  18712.87 |
-| ZF10       |        010 | Urine       | ****          |    97.66 |  30635.73 |
-| ZF16       |        016 | Urine       | ***           |    100.0 |  76803.85 |
-| ZF21       |        021 | Urine       | ***           |    97.64 |  56788.40 |
-| ZF22       |        022 | Urine       | *             |    96.98 |  53493.29 |
-| ZF30       |        030 | Urine       | ***           |    99.74 |  62811.74 |
-| ZF32       |        032 | Urine       | ***           |    98.35 |  55852.93 |
-| ZF36       |        036 | Serum       | *             |    92.66 |  46827.35 |
-| ZF39       |        039 | Urine       | ****          |    99.76 |  77655.23 |
-| ZL2        |     Hu0015 | Saliva      | ***           |    98.41 |  96506.56 |
-| ZM1        |       7501 | Mosquito    | ****          |    98.95 | 156292.44 |
-| ZM2        |       7719 | Mosquito    | ****          |    98.47 | 151795.35 |
-| ZM3        |       7727 | Mosquito    | ****          |    99.97 | 154790.10 |
+| ZF1        |        001 | Saliva      | ***           |    99.71 |  46616.27 |
+| ZF8        |        008 | Urine       | ***           |    90.07 |  35012.49 |
+| ZF10       |        010 | Urine       | ****          |    97.69 |  55330.48 |
+| ZF16       |        016 | Urine       | ***           |    99.88 |  75158.72 |
+| ZF21       |        021 | Urine       | ***           |    97.45 |  52361.36 |
+| ZF22       |        022 | Urine       | *             |    97.77 |  51135.00 |
+| ZF30       |        030 | Urine       | ***           |    99.75 |  57779.63 |
+| ZF32       |        032 | Urine       | ***           |    99.75 |  51483.94 |
+| ZF36       |        036 | Serum       | *             |    93.95 |  45922.51 |
+| ZF39       |        039 | Urine       | ****          |    99.75 |  70253.99 |
+| ZL2        |     Hu0015 | Saliva      | ***           |    99.75 |  89934.25 |
+| ZM1        |       7501 | Mosquito    | ****          |    99.75 | 141038.31 |
+| ZM2        |       7719 | Mosquito    | ****          |    99.74 | 137263.84 |
+| ZM3        |       7727 | Mosquito    | ****          |    99.82 | 139787.57 |
 
 ### Quality
 ```
@@ -47,8 +47,8 @@
 #### Time-scaled trees 
 * Made with BEAST using the following parameters:
  * Uncorrelated relaxed clock with lognormal distribution, CTMC rate prior.
- * HKY<sub>&#915;</sub> substitution model with (1+2),3 codon partitioning.
- * SkyGrid, 50 parameters, time at last point = 2.
+ * GTR<sub>&#915;</sub> substitution model with codon partitioning.
+ * SkyGrid, 50 parameters, time at last point = 4.
  * 30,000,000 states.
 
 **Disclaimer**. Please note that this data is still based on work in progress and should be considered preliminary. If you intend to include any of these data in publications, please let us know – otherwise please feel free to download and use without restrictions. We have shared this data with the hope that people will download and use it, as well as scrutinize it so we can improve our methods and analyses. Please contact us if you have any questions or comments – we’ll buy beers for #ResearchParasites that spot flaws and faults in the data and come up with improvements!
