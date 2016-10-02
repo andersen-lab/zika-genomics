@@ -7,20 +7,20 @@
 | :---       |       :--- | :---        | :---          |       :--- | :---                      |
 | ZF1        |        001 | Saliva      | ***           |      99.71 | Martinique                |
 | ZF8        |        008 | Urine       | ***           |      90.07 | Puerto Rico               |
-| ZF10       |        010 | Urine       | ****          |      97.69 | Cuba                      |
+| ZF10       |        010 | Urine       | ****          |      97.69 | USA     |
 | ZF16       |        016 | Urine       | ***           |      99.88 | Puerto Rico               |
-| ZF21       |        021 | Urine       | ***           |      97.45 | "Dade County Florida"     |
-| ZF22       |        022 | Urine       | ***           |      97.77 | "Dade County Florida"     |
-| ZF30       |        030 | Urine       | ***           |      99.75 | "Dade County Florida"     |
-| ZF32       |        032 | Urine       | ***           |      99.75 | "Dade County Florida"     |
-| ZF38       |        038 | Urine       | ***           |      99.76 | Dade                      |
-| ZF39       |        039 | Urine       | ****          |      99.75 | "Pinellas County Florida" |
-| ZL2        |     Hu0015 | Saliva      | ***           |      99.75 | "Dade County Florida"     |
-| ZM1        |       7501 | Mosquito    | ****          |      99.75 | "Dade County Florida"     |
-| ZM2        |       7719 | Mosquito    | ****          |      99.74 | "Dade County Florida"     |
-| ZM3        |       7727 | Mosquito    | ****          |      99.83 | "Dade County Florida"     |
-| ZM4        |   16-10416 | Mosquito    | ****          |      99.72 | Dade - Miami Beach        |
-| ZM5        |    16-3125 | Mosquito    | **            |      96.63 | Dade - Miami Beach        |
+| ZF21       |        021 | Urine       | ***           |      97.45 | USA     |
+| ZF22       |        022 | Urine       | ***           |      97.77 | USA     |
+| ZF30       |        030 | Urine       | ***           |      99.75 | USA     |
+| ZF32       |        032 | Urine       | ***           |      99.75 | USA     |
+| ZF38       |        038 | Urine       | ***           |      99.76 | USA     |
+| ZF39       |        039 | Urine       | ****          |      99.75 | USA     |
+| ZL2        |     Hu0015 | Saliva      | ***           |      99.75 | USA     |
+| ZM1        |       7501 | Mosquito    | ****          |      99.75 | USA     |
+| ZM2        |       7719 | Mosquito    | ****          |      99.74 | USA     |
+| ZM3        |       7727 | Mosquito    | ****          |      99.83 | USA     |
+| ZM4        |   16-10416 | Mosquito    | ****          |      99.72 | USA     |
+| ZM5        |    16-3125 | Mosquito    | **            |      96.63 | USA     |
 | ZC188      |  423568715 | Serum       | ****          |      98.26 | Columbia                  |
 | ZC192      |  423401315 | Serum       | ****          |      98.36 | Columbia                  |
 | ZC204      |  424439915 | Serum       | ****          |      99.74 | Columbia                  |
