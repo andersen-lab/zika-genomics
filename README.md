@@ -5,22 +5,22 @@
 
 | Scripps ID | Patient ID | Sample type | Quality score | % Coverage | Location of infection     |
 | :---       |       :--- | :---        | :---          |       :--- | :---                      |
-| ZF1        |        001 | Saliva      | ***           |      99.71 | Martinique                |
-| ZF8        |        008 | Urine       | ***           |      90.07 | Puerto Rico               |
-| ZF10       |        010 | Urine       | ****          |      97.69 | USA     |
-| ZF16       |        016 | Urine       | ***           |      99.88 | Puerto Rico               |
-| ZF21       |        021 | Urine       | ***           |      97.45 | USA     |
-| ZF22       |        022 | Urine       | ***           |      97.77 | USA     |
-| ZF30       |        030 | Urine       | ***           |      99.75 | USA     |
-| ZF32       |        032 | Urine       | ***           |      99.75 | USA     |
-| ZF38       |        038 | Urine       | ***           |      99.76 | USA     |
-| ZF39       |        039 | Urine       | ****          |      99.75 | USA     |
-| ZL2        |     Hu0015 | Saliva      | ***           |      99.75 | USA     |
-| ZM1        |       7501 | Mosquito    | ****          |      99.75 | USA     |
-| ZM2        |       7719 | Mosquito    | ****          |      99.74 | USA     |
-| ZM3        |       7727 | Mosquito    | ****          |      99.83 | USA     |
-| ZM4        |   16-10416 | Mosquito    | ****          |      99.72 | USA     |
-| ZM5        |    16-3125 | Mosquito    | **            |      96.63 | USA     |
+| FL001        |        001 | Saliva      | ***           |      99.71 | Martinique                |
+| FL008        |        008 | Urine       | ***           |      90.07 | Puerto Rico               |
+| FL010       |        010 | Urine       | ****          |      97.69 | USA     |
+| FL016       |        016 | Urine       | ***           |      99.88 | Puerto Rico               |
+| FL021       |        021 | Urine       | ***           |      97.45 | USA     |
+| FL022       |        022 | Urine       | ***           |      97.77 | USA     |
+| FL030       |        030 | Urine       | ***           |      99.75 | USA     |
+| FL032       |        032 | Urine       | ***           |      99.75 | USA     |
+| FL038       |        038 | Urine       | ***           |      99.76 | USA     |
+| FL039       |        039 | Urine       | ****          |      99.75 | USA     |
+| Hu0015        |     Hu0015 | Saliva      | ***           |      99.75 | USA     |
+| FL01M        |       7501 | Mosquito    | ****          |      99.75 | USA     |
+| FL02M        |       7719 | Mosquito    | ****          |      99.74 | USA     |
+| FL03M        |       7727 | Mosquito    | ****          |      99.83 | USA     |
+| FL04M        |   16-10416 | Mosquito    | ****          |      99.72 | USA     |
+| FL05M        |    16-3125 | Mosquito    | **            |      96.63 | USA     |
 | ZC188      |  423568715 | Serum       | ****          |      98.26 | Columbia                  |
 | ZC192      |  423401315 | Serum       | ****          |      98.36 | Columbia                  |
 | ZC204      |  424439915 | Serum       | ****          |      99.74 | Columbia                  |
@@ -54,7 +54,7 @@
 #### Time-scaled trees 
 * Made with BEAST using the following parameters:
  * Uncorrelated relaxed clock with lognormal distribution, CTMC rate prior.
- * GTR<sub>&#915;</sub> substitution model with codon partitioning.
+ * HKY<sub>&#915;</sub> substitution model with codon partitioning.
  * SkyGrid, 50 parameters, time at last point = 4.
  * 30,000,000 states.
 
