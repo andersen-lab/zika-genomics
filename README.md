@@ -3,28 +3,30 @@
 
 #### Samples
 
-| Scripps ID | Patient ID | Sample type | Quality score | % Coverage | Location of infection     |
-| :---       |       :--- | :---        | :---          |       :--- | :---                      |
-| FL001        |        001 | Saliva      | ***           |      99.71 | Martinique                |
-| FL008        |        008 | Urine       | ***           |      90.07 | Puerto Rico               |
-| FL010       |        010 | Urine       | ****          |      97.69 | USA     |
-| FL016       |        016 | Urine       | ***           |      99.88 | Puerto Rico               |
-| FL021       |        021 | Urine       | ***           |      97.45 | USA     |
-| FL022       |        022 | Urine       | ***           |      97.77 | USA     |
-| FL030       |        030 | Urine       | ***           |      99.75 | USA     |
-| FL032       |        032 | Urine       | ***           |      99.75 | USA     |
-| FL038       |        038 | Urine       | ***           |      99.76 | USA     |
-| FL039       |        039 | Urine       | ****          |      99.75 | USA     |
-| Hu0015        |     Hu0015 | Saliva      | ***           |      99.75 | USA     |
-| FL01M        |       7501 | Mosquito    | ****          |      99.75 | USA     |
-| FL02M        |       7719 | Mosquito    | ****          |      99.74 | USA     |
-| FL03M        |       7727 | Mosquito    | ****          |      99.83 | USA     |
-| FL04M        |   16-10416 | Mosquito    | ****          |      99.72 | USA     |
-| FL05M        |    16-3125 | Mosquito    | **            |      96.63 | USA     |
-| ZC188      |  423568715 | Serum       | ****          |      98.26 | Columbia                  |
-| ZC192      |  423401315 | Serum       | ****          |      98.36 | Columbia                  |
-| ZC204      |  424439915 | Serum       | ****          |      99.74 | Columbia                  |
-| ZC207      |  423217515 | Serum       | ****          |      96.68 | Columbia                  |	
+| Scripps ID | Patient ID | Sample type | Quality score | % Coverage |Location of infection     |
+| :---       |       :--- | :---        | :---          |       :--- |:---                      |
+| FL001Sa    |        001 | Saliva      | ***           |      99.71 |Martinique                |
+| FL008U     |        008 | Urine       | ***           |      90.07 |Puerto Rico               |
+| FL010U     |        010 | Urine       | ****          |      97.69 |USA                       |
+| FL016U     |        016 | Urine       | ***           |      99.88 |Puerto Rico               |
+| FL021U     |        021 | Urine       | ***           |      97.45 |USA: Dade County, Florida |
+| FL022U     |        022 | Urine       | ***           |      97.77 |USA: Dade County, Florida |
+| FL030U     |        030 | Urine       | ***           |      99.75 |USA: Dade County, Florida |
+| FL032U     |        032 | Urine       | ***           |      99.75 |USA: Dade County, Florida |
+| FL036Se    |        036 | Serum       | ***           |      99.73 |USA: Dade County, Florida |
+| FL038U     |        038 | Urine       | ***           |      99.76 |USA: Dade County, Florida |
+| FL039U     |        039 | Urine       | ****          |      99.75 |USA: Pinellas County, Florida |
+| Hu0015Sa   |     Hu0015 | Saliva      | ***           |      99.75 |USA: Dade County, Florida |
+| FL01M      |       7501 | Mosquito    | ****          |      99.75 |USA: Dade County, Florida |
+| FL02M      |       7719 | Mosquito    | ****          |      99.74 |USA: Dade County, Florida |
+| FL03M      |       7727 | Mosquito    | ****          |      99.83 |USA: Dade County, Florida |
+| FL04M      |   16-10416 | Mosquito    | ****          |      99.72 |USA: Dade County, Florida |
+| FL05M      |    16-3125 | Mosquito    | **            |      96.63 |USA: Dade County, Florida |
+| FL06M      |            | Mosquito    | ****          |      99.71 |USA: Dade County, Florida |
+| ZC188Se    |  423568715 | Serum       | ****          |      98.26 |Columbia                  |
+| ZC192Se    |  423401315 | Serum       | ****          |      98.36 |Columbia                  |
+| ZC204Se    |  424439915 | Serum       | ****          |      99.74 |Columbia                  |
+| ZC207Se    |  423217515 | Serum       | ****          |      96.68 |Columbia                  |
 
 ### Quality
 ```
