@@ -21,7 +21,7 @@
 | FL02M      |       7719 | Mosquito    | ****          |      99.74 |USA: Dade County, Florida |
 | FL03M      |       7727 | Mosquito    | ****          |      99.83 |USA: Dade County, Florida |
 | FL04M      |   16-10416 | Mosquito    | ****          |      99.72 |USA: Dade County, Florida |
-| FL05M      |    16-3125 | Mosquito    | **            |      96.63 |USA: Dade County, Florida |
+| FL05M      |    16-3125 | Mosquito    | ****          |      99.74 |USA: Dade County, Florida |
 | FL06M      |            | Mosquito    | ****          |      99.71 |USA: Dade County, Florida |
 | ZC188Se    |  423568715 | Serum       | ****          |      98.26 |Columbia                  |
 | ZC192Se    |  423401315 | Serum       | ****          |      98.36 |Columbia                  |
