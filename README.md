@@ -3,30 +3,32 @@
 
 #### Samples
 
-| Scripps ID | Patient ID | Sample type | Quality score | % Coverage |Location of infection     |
-| :---       |       :--- | :---        | :---          |       :--- |:---                      |
-| FL001Sa    |        001 | Saliva      | ***           |      99.71 |Martinique                |
-| FL008U     |        008 | Urine       | ***           |      90.07 |Puerto Rico               |
-| FL010U     |        010 | Urine       | ****          |      97.69 |USA: Florida              |
-| FL016U     |        016 | Urine       | ***           |      99.88 |Puerto Rico               |
-| FL021U     |        021 | Urine       | ***           |      97.45 |USA: Florida |
-| FL022U     |        022 | Urine       | ***           |      97.77 |USA: Florida |
-| FL030U     |        030 | Urine       | ***           |      99.75 |USA: Florida |
-| FL032U     |        032 | Urine       | ***           |      99.75 |USA: Florida |
-| FL036Se    |        036 | Serum       | ***           |      99.73 |USA: Florida |
-| FL038U     |        038 | Urine       | ***           |      99.76 |USA: Florida |
-| FL039U     |        039 | Urine       | ****          |      99.75 |USA: Florida |
-| Hu0015Sa   |     Hu0015 | Saliva      | ***           |      99.75 |USA: Florida |
-| FL01M      |       7501 | Mosquito    | ****          |      99.75 |USA: Florida |
-| FL02M      |       7719 | Mosquito    | ****          |      99.74 |USA: Florida |
-| FL03M      |       7727 | Mosquito    | ****          |      99.83 |USA: Florida |
-| FL04M      |   16-10416 | Mosquito    | ****          |      99.72 |USA: Florida |
-| FL05M      |    16-3125 | Mosquito    | ****          |      99.74 |USA: Florida |
-| FL06M      |            | Mosquito    | ****          |      99.71 |USA: Florida |
-| ZC188Se    |  423568715 | Serum       | ****          |      98.26 |Columbia                  |
-| ZC192Se    |  423401315 | Serum       | ****          |      98.36 |Columbia                  |
-| ZC204Se    |  424439915 | Serum       | ****          |      99.74 |Columbia                  |
-| ZC207Se    |  423217515 | Serum       | ****          |      96.68 |Columbia                  |
+| Scripps ID | Patient ID | Sample type | Quality score | % Coverage | Location of infection |
+| :---       |       :--- | :---        | :---          |       :--- | :---                  |
+| FL001Sa    |        001 | Saliva      | ***           |      99.71 | Martinique            |
+| FL008U     |        008 | Urine       | ***           |      90.07 | Puerto Rico           |
+| FL010U     |        010 | Urine       | ****          |      97.69 | USA: Florida          |
+| FL016U     |        016 | Urine       | ***           |      99.88 | Puerto Rico           |
+| FL021U     |        021 | Urine       | ***           |      97.45 | USA: Florida          |
+| FL022U     |        022 | Urine       | ***           |      97.77 | USA: Florida          |
+| FL030U     |        030 | Urine       | ***           |      99.75 | USA: Florida          |
+| FL032U     |        032 | Urine       | ***           |      99.75 | USA: Florida          |
+| FL036Se    |        036 | Serum       | ***           |      99.73 | USA: Florida          |
+| FL038U     |        038 | Urine       | ***           |      99.76 | USA: Florida          |
+| FL039U     |        039 | Urine       | ****          |      99.75 | USA: Florida          |
+| Hu0015Sa   |     Hu0015 | Saliva      | ***           |      99.75 | USA: Florida          |
+| FL01M      |       7501 | Mosquito    | ****          |      99.75 | USA: Florida          |
+| FL02M      |       7719 | Mosquito    | ****          |      99.74 | USA: Florida          |
+| FL03M      |       7727 | Mosquito    | ****          |      99.83 | USA: Florida          |
+| FL04M      |   16-10416 | Mosquito    | ****          |      99.72 | USA: Florida          |
+| FL05M      |    16-3125 | Mosquito    | ****          |      99.74 | USA: Florida          |
+| FL06M      |            | Mosquito    | ****          |      99.71 | USA: Florida          |
+| FL08M      |     pool#8 | Mosquito    | ****          |      97.70 | USA: Florida          |
+| ZC188Se    |  423568715 | Serum       | ****          |      98.26 | Columbia              |
+| ZC192Se    |  423401315 | Serum       | ****          |      98.36 | Columbia              |
+| ZC204Se    |  424439915 | Serum       | ****          |      99.74 | Columbia              |
+| ZC207Se    |  423217515 | Serum       | ****          |      96.68 | Columbia              |
+| ZC199Se    | 4238001315 | Serum       | ***           |      97.44 | Columbia              |
 
 ### Quality
 ```
