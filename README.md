@@ -24,11 +24,11 @@
 | FL05M      |    16-3125 | Mosquito    | ****          |      99.74 | USA: Florida          |
 | FL06M      |            | Mosquito    | ****          |      99.71 | USA: Florida          |
 | FL08M      |     pool#8 | Mosquito    | ****          |      97.70 | USA: Florida          |
-| ZC188Se    |  423568715 | Serum       | ****          |      98.26 | Columbia              |
-| ZC192Se    |  423401315 | Serum       | ****          |      98.36 | Columbia              |
-| ZC204Se    |  424439915 | Serum       | ****          |      99.74 | Columbia              |
-| ZC207Se    |  423217515 | Serum       | ****          |      96.68 | Columbia              |
-| ZC199Se    | 4238001315 | Serum       | ***           |      97.44 | Columbia              |
+| ZC188Se    |  423568715 | Serum       | ****          |      98.26 | Colombia              |
+| ZC192Se    |  423401315 | Serum       | ****          |      98.36 | Colombia              |
+| ZC204Se    |  424439915 | Serum       | ****          |      99.74 | Colombia              |
+| ZC207Se    |  423217515 | Serum       | ****          |      96.68 | Colombia              |
+| ZC199Se    | 4238001315 | Serum       | ***           |      97.44 | Colombia              |
 
 ### Quality
 ```
