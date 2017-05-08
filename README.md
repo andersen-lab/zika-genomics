@@ -29,6 +29,7 @@
 | ZC204Se    |  424439915 | Serum       | ****          |      99.74 | Colombia              |
 | ZC207Se    |  423217515 | Serum       | ****          |      96.68 | Colombia              |
 | ZC199Se    | 4238001315 | Serum       | ***           |      97.44 | Colombia              |
+| Hu0046Sa   |     Hu0046 | Saliva      | ****          |      98.20 | Cuba                  |
 
 ### Quality
 ```
