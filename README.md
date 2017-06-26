@@ -31,7 +31,7 @@
 | ZC199Se    | 4238001315 | Serum       | ***           |      97.44 | Colombia              |
 | Hu0046Sa   |     Hu0046 | Saliva      | ****          |      98.20 | Cuba                  |
 
-### Quality
+#### Quality
 ```
 **** Complete coding sequence, no apparent contamination in aligned bam file
 ***	Complete coding sequence, some contamination in aligned bam file (confident in consensus)
