@@ -1,3 +1,5 @@
+*Summary: Zika virus sequence data from the 2016 outbreak in Florida. [Data here](https://github.com/andersen-lab/zika-florida).*
+
 #### Data
 [Sequences](https://github.com/andersen-lab/zika-florida/tree/master/consensus_sequences) | [Alignments](https://github.com/andersen-lab/zika-florida/tree/master/alignments) | [Trees](https://github.com/andersen-lab/zika-florida/tree/master/trees) | [BAMs](https://www.dropbox.com/sh/87bnqj83mwgw8br/AADWjkfL5bZ22XvemlMOUhBOa?dl=0)
 
