@@ -1,4 +1,4 @@
-*Summary: Zika virus sequence data from the 2016 outbreak in Florida. [Data here](https://github.com/andersen-lab/zika-florida).*
+*Summary: Zika virus sequence data from the 2015-2017 epidemic in the Americas. [Data here](https://github.com/andersen-lab/zika-florida).*
 
 #### Data
 [Sequences](https://github.com/andersen-lab/zika-florida/tree/master/consensus_sequences) | [Alignments](https://github.com/andersen-lab/zika-florida/tree/master/alignments) | [Trees](https://github.com/andersen-lab/zika-florida/tree/master/trees) | [BAMs](https://www.dropbox.com/sh/87bnqj83mwgw8br/AADWjkfL5bZ22XvemlMOUhBOa?dl=0)
@@ -31,7 +31,14 @@
 | ZC204Se    |  424439915 | Serum       | ****          |      99.74 | Colombia              |
 | ZC207Se    |  423217515 | Serum       | ****          |      96.68 | Colombia              |
 | ZC199Se    | 4238001315 | Serum       | ***           |      97.44 | Colombia              |
-| Hu0046Sa   |     Hu0046 | Saliva      | ****          |      98.20 | Cuba                  |
+| Hu0046Sa   |     Hu0046 | Saliva      | ****          |      98.20 | Cuba  			     |
+| FL046Se    |        046 | Serum       | **            |      82.50 | Cuba                  |
+| FL047U     |        047 | Urine       | **            |      80.40 | Cuba                  |
+| FL049U     |        049 | Urine       | ****          |      96.00 | Cuba                  |
+| FL051Se    |        051 | Serum       | ****          |      98.40 | Cuba                  |
+| FL052U     |        052 | Urine       | **            |      86.50 | Cuba                  |
+| FL055Se    |        055 | Serum       | ****          |      96.80 | Cuba                  |
+| FL057U     |        057 | Urine       | **            |      93.80 | Cuba                  |
 
 #### Quality
 ```
