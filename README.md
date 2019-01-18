@@ -1,4 +1,5 @@
-*Summary: Zika virus sequence data from the 2015-2018 epidemic in the Americas. [Data here](https://github.com/andersen-lab/zika-florida).*
+#### Summary
+Zika virus sequence data from the 2015-2018 epidemic in the Americas.
 
 #### Data
 [Sequences](https://github.com/andersen-lab/zika-florida/tree/master/consensus_sequences) | [Alignments](https://github.com/andersen-lab/zika-florida/tree/master/alignments) | [Trees](https://github.com/andersen-lab/zika-florida/tree/master/trees) | [BAMs](https://www.dropbox.com/sh/87bnqj83mwgw8br/AADWjkfL5bZ22XvemlMOUhBOa?dl=0)
